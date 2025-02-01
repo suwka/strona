@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a3f1edc-69d2-47ca-a3f5-c0679a5e1970" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sites/aktywnosc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sites/data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sites/niepowodzenie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/aktywnosc.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/aktywnosc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/data.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/niepowodzenie.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/niepowodzenie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "suwka"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/suwka/strona.git",
+    "accountId": "f3967635-2276-4ca0-8a29-24c0c475e47a"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -65,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738416153576</updated>
-      <workItem from="1738416154584" duration="3805000" />
+      <workItem from="1738416154584" duration="3949000" />
     </task>
     <servers />
   </component>
