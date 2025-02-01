@@ -26,6 +26,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
     gap: 20px;
 }
 
@@ -33,11 +34,49 @@ button {
     display: flex;
     justify-content: center;
     gap: 20px;
-
 }
 
 h1 {
     marin: 0;
     color: black;
     font-size: 36px;
+}
+
+input[type="datetime-local"] {
+    max-width: 300px;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: black;
+    width: 77%;
+}
+
+.wybur {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.zdjecie {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 6%;
+    height: auto;
+}
+
+.coinnego {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 6%;
+    height: auto;
 }

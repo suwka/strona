@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3f1edc-69d2-47ca-a3f5-c0679a5e1970" name="Changes" comment="mobbyn">
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    <list default="true" id="7a3f1edc-69d2-47ca-a3f5-c0679a5e1970" name="Changes" comment="progres w toku">
+      <change afterPath="$PROJECT_DIR$/assets/ferrari.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sites/koniec.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sites/aktywnosc.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/aktywnosc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sites/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/data.html" afterDir="false" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,6 +42,12 @@
     "accountId": "f3967635-2276-4ca0-8a29-24c0c475e47a"
   }
 }]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/sites/data.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -66,6 +74,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leczy\randka\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/strona/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738416153576</updated>
-      <workItem from="1738416154584" duration="6213000" />
+      <workItem from="1738416154584" duration="13777000" />
     </task>
     <task id="LOCAL-00001" summary="mobbyn">
       <option name="closed" value="true" />
@@ -91,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738431343808</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="progres w toku">
+      <option name="closed" value="true" />
+      <created>1738433628014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738433628014</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="elo zelo tak zwane" />
     <MESSAGE value="mobbyn" />
-    <option name="LAST_COMMIT_MESSAGE" value="mobbyn" />
+    <MESSAGE value="progres w toku" />
+    <option name="LAST_COMMIT_MESSAGE" value="progres w toku" />
   </component>
 </project>
