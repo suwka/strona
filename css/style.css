@@ -67,9 +67,22 @@ input[type="datetime-local"] {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    width: 6%;
-    height: auto;
 }
+
+.zdjecie img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.coinnego1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
 
 .coinnego {
     text-align: center;
@@ -77,6 +90,5 @@ input[type="datetime-local"] {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
-    width: 6%;
-    height: auto;
+    width: 250px;
 }
