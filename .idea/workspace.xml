@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3f1edc-69d2-47ca-a3f5-c0679a5e1970" name="Changes" comment="pogczamp">
-      <change afterPath="$PROJECT_DIR$/assets/smutnykot.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/scripts.js" afterDir="false" />
+    <list default="true" id="7a3f1edc-69d2-47ca-a3f5-c0679a5e1970" name="Changes" comment="zrobic porzadek w kodzie ale w sumie wysrane bo dziala es">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/smutnykot.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/aktywnosc.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/aktywnosc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/data.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sites/niepowodzenie.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/niepowodzenie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/tragicznykoniec.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/tragicznykoniec.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738416153576</updated>
-      <workItem from="1738416154584" duration="25380000" />
+      <workItem from="1738416154584" duration="25437000" />
     </task>
     <task id="LOCAL-00001" summary="mobbyn">
       <option name="closed" value="true" />
@@ -163,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738451142144</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="zrobic porzadek w kodzie ale w sumie wysrane bo dziala es">
+      <option name="closed" value="true" />
+      <created>1738458146845</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738458146845</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +177,7 @@
     <MESSAGE value="progres w toku" />
     <MESSAGE value="xd" />
     <MESSAGE value="pogczamp" />
-    <option name="LAST_COMMIT_MESSAGE" value="pogczamp" />
+    <MESSAGE value="zrobic porzadek w kodzie ale w sumie wysrane bo dziala es" />
+    <option name="LAST_COMMIT_MESSAGE" value="zrobic porzadek w kodzie ale w sumie wysrane bo dziala es" />
   </component>
 </project>
