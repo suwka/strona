@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="../css/style.css">
+    <src href="../scr"
 </head>
 <body>
 <div class="container">
@@ -11,10 +12,20 @@
     <h> moze jednak zmienisz chcesz zmienic zdanie?? </h>
     <div class="wybur">
         <button onclick="window.location.href='../index.html'"> y </button>
-        <button onclick="window.location.href='tragicznykoniec.html'"> n </button>
+        <button id="tragedia"> n </button>
     </div>
-
-
 </div>
+<script>
+    document.getElementById("tragedia").addEventListener("click", function() {
+        fetch('https://discord.com/api/webhooks/1334900281607196813/WnGkxYYI7s3-54g_dhTuKc5uCdnzMP99zpz3rn6IjLeVInJpYhOd_yOqie6OmxNgIWwn', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ content: "huja" })
+        })
+            .then(() => {
+                window.location.href = 'tragicznykoniec.html';
+            });
+    });
+</script>
 </body>
 </html>

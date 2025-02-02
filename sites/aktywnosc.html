@@ -11,36 +11,51 @@
     <div class="wybur">
         <div class="zdjecie">
             <img src="../assets/plastelina.jpg" alt="plastelina" id="plastelina" class="visible">
-            <button onclick="window.location.href='data.html'"> plastelina 4 </button>
+            <button onclick="window.location.href='data.html?wybor=plastelina'">plastelina 4</button>
         </div>
         <div class="zdjecie">
-            <img src="../assets/kino.png" alt="kino" id="kino" class="visible">
-            <button onclick="window.location.href='data.html'"> film </button>
+            <img src="../assets/kino.png" alt="film" id="film" class="visible">
+            <button onclick="window.location.href='data.html?wybor=film'">film</button>
         </div>
         <div class="zdjecie">
             <img src="../assets/lego.jpg" alt="lego" id="lego" class="visible">
-            <button onclick="window.location.href='data.html'"> lego 3 </button>
+            <button onclick="window.location.href='data.html?wybor=lego'">lego 3</button>
         </div>
     </div>
     <div class="wybur">
         <div class="zdjecie">
             <img src="../assets/betoniarnia.png" alt="betoniarnia" id="betoniarnia" class="visible">
-            <button onclick="window.location.href='data.html'"> betoniarnia </button>
+            <button onclick="window.location.href='data.html?wybor=betoniarnia'">betoniarnia</button>
         </div>
         <div class="zdjecie">
             <img src="../assets/spontan.jpg" alt="spontan" id="spontan" class="visible">
-            <button onclick="window.location.href='data.html'"> spontan </button>
+            <button onclick="window.location.href='data.html?wybor=spontan'">spontan</button>
         </div>
         <div class="zdjecie">
             <img src="../assets/pizza.JPEG" alt="pizza" id="pizza" class="visible">
-            <button onclick="window.location.href='data.html'"> pizza </button>
+            <button onclick="window.location.href='data.html?wybor=pizza'">pizza</button>
         </div>
     </div>
     <div class="wybur">
         <div class="coinnego">
-            <p> jakis inny pomys?? </p>
+            <p> Jakis inny pomys? </p>
             <input type="text" id="fname" name="fname">
-            <button onclick="window.location.href='data.html'"> potwierdzacz </button>
+            <button onclick="wyslij()">Potwierdzacz</button>
+
+            <script>
+                function wyslij() {
+                    // Pobierz wartość z pola tekstowego
+                    var wybor = document.getElementById('fname').value;
+
+                    // Przekieruj do data.html z parametrem 'wybor' w URL
+                    window.location.href = 'data.html?wybor=' + encodeURIComponent(wybor);
+                }
+
+                if (window.location.pathname.includes("data.html")) {
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const wybor = urlParams.get('wybor');
+                }
+            </script>
         </div>
     </div>
 </div>

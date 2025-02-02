@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
-    <div class="container">
-        <p> wybierz date i godzine </p>
-        <input type="datetime-local"
-               min="01-01-2025 00:00"
-               max="31-12-2025 23:59"
-               step="1">
-        <button onclick="window.location.href='koniec.html'"> wtedy mogem </button>
-    </div>
+<div class="container">
+    <p> wybierz date i godzine </p>
+    <input type="datetime-local" id="datetimeInput"
+           min="2025-01-01T00:00"
+           max="2025-12-31T23:59"
+           step="1">
+    <button id="submitButton"> wtedy mogem </button>
+</div>
+<p id="wybor"></p>
+
+<script>
+    document.getElementById('submitButton').addEventListener('click', function() {
+        const wybor = new URLSearchParams(window.location.search).get('wybor');
+        const data = document.getElementById('datetimeInput').value;
+
+        if (wybor && data) {
+            fetch('https://discord.com/api/webhooks/1334900281607196813/WnGkxYYI7s3-54g_dhTuKc5uCdnzMP99zpz3rn6IjLeVInJpYhOd_yOqie6OmxNgIWwn', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ content: `Wybor: ${wybor}, Data: ${data}` })
+            }).then(() => {
+                window.location.href = 'koniec.html'; // Przekierowanie na stronę koniec.html
+            });
+        } else {
+            alert('Proszę uzupełnić oba pola: wybór i datę/godzinę.');
+        }
+    });
+</script>
+
+
 </body>
 </html>
