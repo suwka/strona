@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>wymys cos</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -40,14 +40,11 @@
         <div class="coinnego">
             <p> Jakis inny pomys? </p>
             <input type="text" id="fname" name="fname">
-            <button onclick="wyslij()">Potwierdzacz</button>
+            <button onclick="wyslij()">potwierdzacz</button>
 
             <script>
                 function wyslij() {
-                    // Pobierz wartość z pola tekstowego
                     var wybor = document.getElementById('fname').value;
-
-                    // Przekieruj do data.html z parametrem 'wybor' w URL
                     window.location.href = 'data.html?wybor=' + encodeURIComponent(wybor);
                 }
 

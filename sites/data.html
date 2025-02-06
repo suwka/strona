@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>kiedy ci tam pasi</title>
     <link rel="stylesheet" href="../css/style.css">
     <script src="scripts.js"></script>
 </head>
@@ -28,7 +28,7 @@
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ content: `Wybor: ${wybor}, Data: ${data}` })
             }).then(() => {
-                window.location.href = 'koniec.html'; // Przekierowanie na stronę koniec.html
+                window.location.href = 'koniec.html';
             });
         } else {
             alert('Proszę uzupełnić oba pola: wybór i datę/godzinę.');
